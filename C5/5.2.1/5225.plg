@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 5225 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\windows\AppData\Local\Temp\RSP81C0.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/5225.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\windows\Desktop\新建文件夹\C5\5225\5225.cpp"
+]
+Creating command line "cl.exe @C:\Users\windows\AppData\Local\Temp\RSP81C0.tmp" 
+Creating temporary file "C:\Users\windows\AppData\Local\Temp\RSP81C1.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/5225.pdb" /debug /machine:I386 /out:"Debug/5225.exe" /pdbtype:sept 
+".\Debug\5225.obj"
+]
+Creating command line "link.exe @C:\Users\windows\AppData\Local\Temp\RSP81C1.tmp"
+<h3>Output Window</h3>
+Compiling...
+5225.cpp
+C:\Users\windows\Desktop\新建文件夹\C5\5225\5225.cpp(31) : error C2084: function 'int __cdecl main(int,char *[])' already has a body
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+5225.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
